@@ -11,7 +11,7 @@ while command != "No Money":
                 gifts_received[out_of_stock_gift] = "None"
 
     if "Required" in list_command:
-        if int(list_command[-1]) <= len(gifts_received) - 1:
+        if 0 < int(list_command[-1]) <= len(gifts_received) - 1:
             gifts_received[int(list_command[-1])] = list_command[1]
 
     if "JustInCase" in list_command:
