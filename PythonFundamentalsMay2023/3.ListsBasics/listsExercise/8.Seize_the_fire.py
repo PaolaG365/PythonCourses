@@ -23,7 +23,7 @@ for fire in range(len(fires)):
         total_fires += range_fire
         water -= range_fire
     if water < 0:
-        cells.pop(-1)
+        cells.pop()
         effort -= range_fire * 0.25
         total_fires -= range_fire
         water += range_fire
