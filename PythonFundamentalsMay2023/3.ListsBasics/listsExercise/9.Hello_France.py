@@ -15,13 +15,13 @@ for item in range(len(items_list)):
     item_data = items_list[item].split("->")
     price_item = float(item_data[1])
 
-    if "Clothes" in item_data and price_item < 50.00:
+    if "Clothes" in item_data and price_item <= 50.00:
         bought_items.append(item_data[1])
         budget -= price_item
-    elif "Shoes" in item_data and price_item < 35.00:
+    elif "Shoes" in item_data and price_item <= 35.00:
         bought_items.append(item_data[1])
         budget -= price_item
-    elif "Accessories" in item_data and price_item < 20.50:
+    elif "Accessories" in item_data and price_item <= 20.50:
         bought_items.append(item_data[1])
         budget -= price_item
 
