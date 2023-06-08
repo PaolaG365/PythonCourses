@@ -1,4 +1,4 @@
-def factorial_division(a, b):  # find factorial of first num and divide by second
+def factorial_division(a, b):  # find factorial of first and second num and divide their result
     factorial_a = a
     factorial_b = b
 
