@@ -1,6 +1,6 @@
-def tribonacci_sequence(n):  # n - number of iterations through sequence
+def tribonacci_sequence(n):  # n - numbers of tribonacci sequence to find
     last_three_nums = [0, 1, 1]
-    tribonacci_sequence_nums = [1, 1]  # exercise specific
+    tribonacci_sequence_nums = [1, 1]
 
     if n == 1:
         tribonacci_sequence_nums = [1]
