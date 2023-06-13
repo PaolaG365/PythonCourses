@@ -1,5 +1,4 @@
 def sum_of_pokemons(pokemons, index_pokemon):
-    current_pokemon = 0
 
     if index_pokemon < 0:
         current_pokemon = pokemons.pop(0)
