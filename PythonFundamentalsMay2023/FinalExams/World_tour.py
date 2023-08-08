@@ -1,4 +1,4 @@
-def is_valid_index(text, n): return True if 0 <= n <= len(text) - 1 else False
+def is_valid_index(text, n): return True if 0 <= n < len(text) else False
 
 
 def add_stop(text, num, stop):

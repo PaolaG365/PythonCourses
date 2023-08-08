@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(208, 195, 209);
+    
+}
+
+div {display: inline-block;font-size: x-large;}
+.green {background-color:green;}
+.blue {background-color: blue;}
+.red {background-color: red;}
+.purple {background-color: purple;}
+.orange {background-color: orange;}
