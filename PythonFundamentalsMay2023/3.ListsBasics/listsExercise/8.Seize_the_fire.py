@@ -24,7 +24,7 @@ for fire in range(len(fires)):
     elif water == 0:
         break
 
-print(f"Cells:")
+print("Cells:")
 for cell in cells:
     print(f"- {cell}")
 
