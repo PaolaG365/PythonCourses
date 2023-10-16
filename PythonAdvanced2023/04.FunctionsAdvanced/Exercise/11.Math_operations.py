@@ -7,6 +7,14 @@ operations = {
 
 
 def math_operations(*args, **kwargs):
+    """
+    In this exercise we have random numbers as input, we are given four kwargs, m - multiplication,
+    d - division, s - subtraction, a - addition. For every num from 1st to 4th we have to do an
+    arithmetic operation in order : 1st - a, 2nd - s, 3rd - d and 4th - m.
+    :param args: numbers: ints and floats
+    :param kwargs: string key with numeric value
+    :return: sorted dictionary ordered by value, descending and by key, ascending; returned as string
+    """
     counter = 0
     for element_num in range(len(args)):
         counter += 1
