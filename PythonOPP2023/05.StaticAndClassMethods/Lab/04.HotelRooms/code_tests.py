@@ -1,6 +1,6 @@
 from project.hotel import Hotel
 from project.room import Room
-import unittest
+import unittests_for_comp_store
 
 
 class Tests(unittest.TestCase):

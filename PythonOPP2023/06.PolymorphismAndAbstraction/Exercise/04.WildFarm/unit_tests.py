@@ -1,5 +1,5 @@
 # first zero test
-import unittest
+import unittests_for_comp_store
 from project.animals.birds import Owl, Hen
 from project.animals.mammals import Mouse, Dog, Cat, Tiger
 from project.food import Vegetable, Fruit, Meat, Seed

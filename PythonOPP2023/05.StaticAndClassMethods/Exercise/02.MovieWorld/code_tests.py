@@ -2,7 +2,7 @@ from project.customer import Customer
 from project.dvd import DVD
 from project.movie_world import MovieWorld
 
-import unittest
+import unittests_for_comp_store
 
 
 class TestsMovieWorld(unittest.TestCase):

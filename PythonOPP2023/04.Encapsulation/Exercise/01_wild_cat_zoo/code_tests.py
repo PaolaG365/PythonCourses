@@ -8,7 +8,7 @@ from project.vet import Vet
 from project.caretaker import Caretaker
 from project.zoo import Zoo
 
-import unittest
+import unittests_for_comp_store
 
 
 class Tests(unittest.TestCase):
